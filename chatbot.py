@@ -14,14 +14,6 @@ nltk.download('punkt', quiet=True)
 article_urls = [
     'https://www.who.int/news-room/fact-sheets/detail/malaria',  # Malaria
     'https://www.who.int/news-room/fact-sheets/detail/hiv-aids',  # HIV/AIDS
-    'https://www.who.int/news-room/fact-sheets/detail/cholera', #Cholera
-    'https://www.who.int/news-room/fact-sheets/detail/cancer', #Cancer
-    'https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease', #Ebola
-    'https://www.who.int/news-room/fact-sheets/detail/tuberculosis',#Tuberculosis
-    'https://www.who.int/news-room/fact-sheets/detail/diabetes',#diabete
-    'https://www.who.int/news-room/fact-sheets/detail/hepatitis-b', #hepatitis-b
-    'https://www.who.int/news-room/fact-sheets/detail/hepatitis-c', #hepatitis-c
-    'https://www.who.int/health-topics/malnutrition',#malnutrition
 ]
 
 # Initialize an empty corpus
