@@ -7,14 +7,13 @@ import json
 from fuzzywuzzy import process
 
 
-# Download the punkt package for tokenization
-nltk.download('punkt', quiet=True)
+# Ensure necessary NLTK dependencies are downloaded
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
 
-# Combined list of unique article URLsclear
+# Combined list of unique article URLs
 article_urls = []
 
 # Initialize an empty corpus
