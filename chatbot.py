@@ -11,9 +11,7 @@ from fuzzywuzzy import process
 nltk.download('punkt', quiet=True)
 
 # Combined list of unique article URLsclear
-article_urls = [
-    'https://www.who.int/news-room/fact-sheets/detail/malaria',  # Malaria
-]
+article_urls = []
 
 # Initialize an empty corpus
 corpus = ""
