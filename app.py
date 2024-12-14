@@ -15,36 +15,7 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'your_email@gmail.com'
-app.config['MAIL_PASSWORD'] = 'your_email_password'
-port = int(os.environ.get("PORT", 5000))  # Default to 5000 if PORT isn't set
-
-db = SQLAlchemy(app)
-# Predefined admin credentials
-
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(100), nullable=False)
-    email = db.Column(db.String(100), nullable=True)
-    password = db.Column(db.String(100))
-
-    def __init__(self, username, email, password):
-        self.username = username
-        self.email = email
-        self.password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
-
-    def check_password(self, password):
-        return bcrypt.checkpw(password.encode('utf-8'), self.password.encode('utf-8'))
-
-with app.app_context():
-    db.create_all()
-
-@app.route('/')
-def index():
-    return render_template('base.html')
-
-# Importing the check_authenticated decorator
-from functools import wraps
-
+app.config['MAIL_PASSWORD'] =`?
 # Definition of the check_authenticated decorator
 def check_authenticated(func):
     @wraps(func)
