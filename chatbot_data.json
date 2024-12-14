@@ -1,0 +1,169 @@
+{
+  "common_questions": {
+    "what is malaria": "Malaria is a life-threatening disease caused by parasites transmitted to people through the bites of infected female Anopheles mosquitoes.",
+    "what are symptoms of malaria": "Symptoms of malaria include fever, chills, headache, nausea, and vomiting, often appearing 10-15 days after the infective mosquito bite.",
+    "how is malaria treated": "Malaria is treated with antimalarial medications such as chloroquine, artemisinin, or combination therapies.",
+    "how is malaria diagnosed": "Malaria is diagnosed by a blood test that looks for parasites.",
+    "how to prevent malaria": "Prevent malaria by using mosquito nets, applying insect repellent, and taking antimalarial medications.",
+    
+    "what is hiv and aids": "HIV is a virus that attacks the body’s immune system, potentially leading to AIDS if not treated.",
+    "what are symptoms of hiv and aids": "Early symptoms include fever, sore throat, and fatigue. Later symptoms can include weight loss, night sweats, and frequent infections.",
+    "how is hiv and aids treated": "HIV/AIDS is treated using antiretroviral therapy (ART) to help control the virus and prevent progression to AIDS.",
+    "how is hiv and aids transmitted": "HIV is spread through contact with certain body fluids such as blood, semen, vaginal fluids, and breast milk.",
+    "how to prevent hiv and aids": "Prevent HIV/AIDS by practicing safe sex, using clean needles, and taking preventive medications like PrEP.",
+    
+    "what is tuberculosis": "Tuberculosis (TB) is a bacterial infection that primarily affects the lungs, caused by Mycobacterium tuberculosis.",
+    "what are symptoms of tuberculosis": "Symptoms of TB include a persistent cough, chest pain, weight loss, and night sweats.",
+    "how is tuberculosis treated": "Tuberculosis is treated with antibiotics over a period of several months.",
+    "how is tuberculosis diagnosed": "TB is diagnosed through skin tests, blood tests, and chest X-rays.",
+    "how to prevent tuberculosis": "Prevent TB by getting vaccinated and maintaining good hygiene.",
+
+    "what is influenza": "Influenza (flu) is a contagious respiratory illness caused by influenza viruses.",
+    "what are symptoms of influenza": "Symptoms include fever, chills, muscle aches, cough, congestion, runny nose, headaches, and fatigue.",
+    "how is influenza treated": "Treatment includes rest, fluids, and, in some cases, antiviral medications.",
+    "how is influenza diagnosed": "Flu is diagnosed through physical exams and sometimes rapid influenza diagnostic tests.",
+    "how to prevent influenza": "Prevent flu by getting vaccinated annually and practicing good hand hygiene.",
+    
+    "what is diabetes": "Diabetes is a chronic health condition that affects how your body turns food into energy due to issues with insulin.",
+    "what are symptoms of diabetes": "Symptoms include increased thirst, frequent urination, hunger, fatigue, and blurred vision.",
+    "how is diabetes treated": "Treatment includes lifestyle changes, monitoring blood sugar, insulin therapy, and medications.",
+    "how is diabetes diagnosed": "Diabetes is diagnosed through blood tests that measure blood sugar levels.",
+    "how to prevent diabetes": "Prevent diabetes by maintaining a healthy lifestyle with regular exercise and a balanced diet.",
+    
+    "what is cancer": "Cancer is a disease in which abnormal cells divide uncontrollably and destroy body tissue.",
+    "what are symptoms of cancer": "Symptoms vary but can include lumps, abnormal bleeding, prolonged cough, and unexplained weight loss.",
+    "how is cancer treated": "Treatment may include surgery, radiation therapy, chemotherapy, and immunotherapy.",
+    "how is cancer diagnosed": "Cancer is diagnosed through imaging tests, biopsy, and lab tests.",
+    "how to prevent cancer": "Prevent cancer by avoiding tobacco, maintaining a healthy diet, and getting regular screenings.",
+    
+
+    "what is covid-19": "COVID-19 is a highly infectious disease caused by the SARS-CoV-2 virus.",
+    "what are symptoms of covid-19": "Symptoms include fever, cough, shortness of breath, loss of taste or smell, and fatigue.",
+    "how is covid-19 treated": "Treatment includes rest, hydration, and, in severe cases, hospitalization and oxygen therapy.",
+    "how is covid-19 diagnosed": "COVID-19 is diagnosed using PCR tests, antigen tests, and sometimes antibody tests.",
+    "how to prevent covid-19": "Prevent COVID-19 by wearing masks, maintaining physical distance, and getting vaccinated.",
+
+    "what is cholera": "Cholera is an acute diarrheal illness caused by infection of the intestine with Vibrio cholerae bacteria.",
+    "what are symptoms of cholera": "Symptoms include watery diarrhea, dehydration, and in severe cases, death if untreated.",
+    "how is cholera treated": "Treatment includes rehydration, antibiotics, and zinc supplements.",
+    "how is cholera diagnosed": "Cholera is diagnosed through stool samples.",
+    "how to prevent cholera": "Prevent cholera by drinking clean water, using toilets, and washing hands with soap.",
+    
+
+    "what is hepatitis": "Hepatitis is an inflammation of the liver, often caused by a viral infection.",
+    "what are symptoms of hepatitis": "Symptoms include fatigue, nausea, jaundice, and abdominal pain.",
+    "how is hepatitis treated": "Treatment varies by type but may include antiviral medications and lifestyle changes.",
+    "how is hepatitis diagnosed": "Hepatitis is diagnosed through blood tests and liver function tests.",
+    "how to prevent hepatitis": "Prevent hepatitis by getting vaccinated, avoiding contaminated food and water, and practicing safe sex.",
+    
+
+     "what is typhoid fever": "Typhoid fever is a bacterial infection caused by Salmonella typhi, commonly spread through contaminated food and water.",
+     "what are symptoms of typhoid fever": "Symptoms include high fever, weakness, stomach pain, headache, and loss of appetite.",
+     "how is typhoid fever treated": "Typhoid is treated with antibiotics and supportive care, like hydration and rest.",
+     "how is typhoid fever diagnosed": "Typhoid is diagnosed with a blood or stool test to detect the presence of Salmonella typhi.",
+     "how to prevent typhoid fever": "Prevent typhoid by drinking safe water, eating properly cooked food, and getting vaccinated if at risk.",
+     
+     "what is mumps": "Mumps is a viral infection primarily affecting the salivary glands, causing swelling and pain near the jawline.",
+     "what are symptoms of mumps": "Symptoms include swollen and painful salivary glands, fever, headache, and fatigue.",
+     "how is mumps treated": "There is no specific treatment for mumps; care focuses on symptom relief and isolation to prevent spread.",
+     "how is mumps diagnosed": "Mumps is diagnosed based on symptoms and confirmed with a blood test or saliva test.",
+     "how to prevent mumps": "Prevent mumps by getting vaccinated with the MMR (measles, mumps, rubella) vaccine.",
+     
+     "what is chikungunya": "Chikungunya is a viral disease transmitted by Aedes mosquitoes, causing fever and severe joint pain.",
+     "what are symptoms of chikungunya": "Symptoms include sudden fever, joint pain, headache, muscle pain, and rash.",
+     "how is chikungunya treated": "Treatment involves symptom relief, as there is no specific antiviral for chikungunya.",
+     "how is chikungunya diagnosed": "Chikungunya is diagnosed through blood tests that detect the virus or antibodies.",
+     "how to prevent chikungunya": "Prevent chikungunya by avoiding mosquito bites and using insect repellents.",
+     
+     "what is legionnaires disease": "Legionnaires' disease is a severe form of pneumonia caused by Legionella bacteria, typically found in contaminated water systems.",
+     "what are symptoms of legionnaires disease": "Symptoms include cough, shortness of breath, high fever, muscle aches, and headaches.",
+     "how is legionnaires disease treated": "Legionnaires' disease is treated with antibiotics such as azithromycin or ciprofloxacin.",
+     "how is legionnaires disease diagnosed": "It is diagnosed through urine tests and lung samples that detect Legionella bacteria.",
+     "how to prevent legionnaires disease": "Prevent Legionnaires' by maintaining clean water systems in large buildings and avoiding inhaling mist from contaminated water sources.",
+     
+     "what is dengue fever": "Dengue fever is a mosquito-borne viral infection causing flu-like symptoms and, in severe cases, hemorrhagic fever.",
+     "what are symptoms of dengue fever": "Symptoms include high fever, severe headache, pain behind the eyes, joint pain, rash, and mild bleeding.",
+     "how is dengue fever treated": "There is no specific treatment for dengue; symptoms are managed with fluids and pain relievers.",
+     "how is dengue fever diagnosed": "Dengue fever is diagnosed with blood tests that detect the virus or antibodies.",
+     "how to prevent dengue fever": "Prevent dengue by avoiding mosquito bites, using repellents, and eliminating standing water where mosquitoes breed.",
+     
+     "what is shigellosis": "Shigellosis is an infectious disease caused by a group of bacteria called Shigella, primarily causing diarrhea.",
+     "what are symptoms of shigellosis": "Symptoms include diarrhea (often bloody), fever, stomach cramps, and nausea.",
+     "how is shigellosis treated": "Shigellosis is often treated with antibiotics, but mild cases may recover without treatment.",
+     "how is shigellosis diagnosed": "Shigellosis is diagnosed by testing a stool sample for Shigella bacteria.",
+     "how to prevent shigellosis": "Prevent shigellosis by practicing good hygiene, especially handwashing, and avoiding contaminated food and water.",
+     
+     "what is rotavirus": "Rotavirus is a highly contagious virus that causes severe diarrhea, mostly in infants and young children.",
+     "what are symptoms of rotavirus": "Symptoms include severe diarrhea, vomiting, fever, and abdominal pain.",
+     "how is rotavirus treated": "Treatment focuses on preventing dehydration through rehydration solutions, as there is no specific antiviral.",
+     "how is rotavirus diagnosed": "Rotavirus is diagnosed through a stool sample test.",
+     "how to prevent rotavirus": "Prevent rotavirus by getting vaccinated and practicing good hygiene.",
+     
+     "what is tetanus": "Tetanus is a serious bacterial infection caused by Clostridium tetani, often through cuts or wounds.",
+     "what are symptoms of tetanus": "Symptoms include muscle stiffness, spasms, difficulty swallowing, and lockjaw.",
+     "how is tetanus treated": "Tetanus is treated with antitoxin, antibiotics, and muscle relaxants.",
+     "how is tetanus diagnosed": "Tetanus is diagnosed based on clinical symptoms and exposure history.",
+     "how to prevent tetanus": "Prevent tetanus by keeping up-to-date with vaccinations, especially after injury.",
+
+     "what is zika virus": "Zika virus is a mosquito-borne virus primarily transmitted by Aedes mosquitoes, often found in tropical and subtropical regions.",
+    "what are symptoms of zika virus": "Symptoms of Zika virus include fever, rash, joint pain, and red eyes, usually mild and lasting for several days.",
+    "how is zika virus treated": "There is no specific treatment for Zika; symptoms are managed with rest, fluids, and pain relievers.",
+    "how is zika virus diagnosed": "Zika virus is diagnosed through blood or urine tests.",
+    "how to prevent zika virus": "Prevent Zika by avoiding mosquito bites, using insect repellent, and wearing long-sleeved clothing.",
+    
+    "what is ebola": "Ebola is a rare and deadly viral infection that causes severe bleeding, organ failure, and can be fatal.",
+    "what are symptoms of ebola": "Symptoms include fever, headache, muscle pain, and fatigue, progressing to vomiting, diarrhea, and bleeding.",
+    "how is ebola treated": "Ebola is treated with supportive care and, in some cases, experimental antiviral drugs.",
+    "how is ebola diagnosed": "Ebola is diagnosed through blood tests that detect the virus.",
+    "how to prevent ebola": "Prevent Ebola by avoiding contact with infected individuals and practicing good hygiene.",
+    
+    "what is meningitis": "Meningitis is an inflammation of the membranes surrounding the brain and spinal cord, caused by infections.",
+    "what are symptoms of meningitis": "Symptoms include sudden high fever, headache, neck stiffness, and sensitivity to light.",
+    "how is meningitis treated": "Treatment depends on the cause but may include antibiotics or antiviral medications.",
+    "how is meningitis diagnosed": "Meningitis is diagnosed through a lumbar puncture to analyze spinal fluid.",
+    "how to prevent meningitis": "Prevent meningitis by getting vaccinated, especially for bacterial meningitis.",
+
+    "what is hepatitis b": "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic disease.",
+    "what are symptoms of hepatitis b": "Symptoms include jaundice, fatigue, dark urine, and abdominal pain.",
+    "how is hepatitis b treated": "Treatment includes antiviral medications for chronic cases and lifestyle changes to protect the liver.",
+    "how is hepatitis b diagnosed": "Hepatitis B is diagnosed through blood tests.",
+    "how to prevent hepatitis b": "Prevent hepatitis B by getting vaccinated and avoiding blood-borne and sexual exposure.",
+    
+    "what is rabies": "Rabies is a viral disease that affects the central nervous system, typically spread through the bite of an infected animal.",
+    "what are symptoms of rabies": "Early symptoms include fever and tingling at the bite site, progressing to violent movements, and fear of water.",
+    "how is rabies treated": "Rabies is preventable with post-exposure prophylaxis but is almost always fatal once symptoms appear.",
+    "how is rabies diagnosed": "Rabies is diagnosed by testing samples of saliva, blood, skin, and cerebrospinal fluid.",
+    "how to prevent rabies": "Prevent rabies by vaccinating pets and avoiding contact with wild animals.",
+    
+    "what is measles": "Measles is a highly contagious viral disease that causes fever, cough, runny nose, and a characteristic red rash.",
+    "what are symptoms of measles": "Symptoms include fever, cough, red eyes, and a rash that usually starts on the face and spreads.",
+    "how is measles treated": "There is no specific treatment; supportive care includes rest, hydration, and fever management.",
+    "how is measles diagnosed": "Measles is diagnosed through a clinical examination and confirmed with blood tests.",
+    "how to prevent measles": "Prevent measles by getting vaccinated with the MMR (measles, mumps, rubella) vaccine.",
+    
+    "what is chickenpox": "Chickenpox is a contagious viral infection caused by the varicella-zoster virus, resulting in a blister-like rash.",
+    "what are symptoms of chickenpox": "Symptoms include itchy, blister-like rashes, fever, and fatigue.",
+    "how is chickenpox treated": "Treatment focuses on relieving symptoms with antihistamines and sometimes antiviral medications.",
+    "how is chickenpox diagnosed": "Chickenpox is diagnosed through a visual exam of the characteristic rash.",
+    "how to prevent chickenpox": "Prevent chickenpox by getting vaccinated with the varicella vaccine.",
+    
+    "what is lyme disease": "Lyme disease is a bacterial infection transmitted to humans through the bite of infected black-legged ticks.",
+    "what are symptoms of lyme disease": "Early symptoms include fever, headache, fatigue, and a characteristic bull's-eye rash.",
+    "how is lyme disease treated": "Lyme disease is treated with antibiotics, usually doxycycline or amoxicillin.",
+    "how is lyme disease diagnosed": "Lyme disease is diagnosed through symptoms and confirmed with blood tests.",
+    "how to prevent lyme disease": "Prevent Lyme disease by avoiding tick bites, using repellent, and wearing protective clothing.",
+    
+
+    "what is polio": "Polio is a viral disease that can cause paralysis and is transmitted through contaminated water and food.",
+    "what are symptoms of polio": "Symptoms include fever, fatigue, headache, vomiting, and, in severe cases, paralysis.",
+    "how is polio treated": "There is no cure for polio, but physical therapy can help manage symptoms.",
+    "how is polio diagnosed": "Polio is diagnosed through stool samples or throat swabs that detect the virus.",
+    "how to prevent polio": "Prevent polio by getting vaccinated with the polio vaccine.",
+    
+    "what is hantavirus": "Hantavirus is a group of viruses spread mainly by rodents and can cause severe respiratory disease.",
+    "what are symptoms of hantavirus": "Early symptoms include fatigue, fever, and muscle aches, progressing to coughing and shortness of breath.",
+    "how is hantavirus treated": "There is no specific treatment, and care is supportive, focusing on managing respiratory symptoms.",
+    "how is hantavirus diagnosed": "Hantavirus is diagnosed with blood tests that identify the virus or its antibodies.",
+    "how to prevent hantavirus": "Prevent hantavirus by avoiding exposure to rodent droppings and nests."
+  }
+}

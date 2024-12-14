@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+        }
+
+        .chat-container {
+            width: 100%; /* Set to full width */
+            max-width: 1000px; /* Optional: Limit max width */
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f0f8ff;
+            border: 1px solid #ccc;
+            border-radius: 10px; /* Add rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+        }
+
+        #chat-box {
+            height: 300px;
+            overflow-y: scroll;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px; /* Add rounded corners */
+        }
+
+        .chat-title {
+            text-align: center; /* Align title to center */
+            color: black;
+            font-size: 36px;
+            margin-bottom: 20px; /* Add margin below title */
+        }
+
+        .user-message, .bot-message {
+            margin-bottom: 10px;
+        }
+
+        .user-message {
+            color: rgb(0, 0, 0);
+        }
+
+        .bot-message {
+            color: black;
+        }
+
+        .typing-indicator {
+            font-style: italic;
+            color: gray;
+        }
+
+        input {
+            width: 60%;
+            padding: 10px;
+            border: 1px solid #ccc; /* Add border to input */
+            border-radius: 5px; /* Add rounded corners to input */
+        }
+
+        button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-left: 5px;
+            border-radius: 5px; /* Add rounded corners to button */
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .button-container {
+            display: flex; /* Use flexbox for button alignment */
+            justify-content: center; /* Center align buttons */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container" id="chat-container">
+        <h1 class="chat-title">Chat with Doc Bot</h1>
+        <div id="chat-box">
+            <!-- Chat logs will appear here -->
+        </div>
+        <div class="button-container">
+            <input type="text" id="user-input" placeholder="Type a message..." autofocus>
+            <button onclick="sendMessage()">Send</button>
+            <button onclick="startVoiceRecognition()">🎤</button> <!-- Voice input button -->
+            <button onclick="clearChat()">Clear Chat</button>
+            <button onclick="restoreChat()">Restore Chat</button>
+        </div>
+    </div>
+
+    <script>
+        let previousMessages = []; // Store messages for restoration
+
+        // Load chat history from local storage
+        window.onload = function() {
+            const chatHistory = JSON.parse(localStorage.getItem('chatHistory')) || [];
+            chatHistory.forEach(function(message) {
+                document.getElementById('chat-box').innerHTML += message;
+                previousMessages.push(message); // Store messages for restoration
+            });
+            scrollToBottom(); // Scroll to bottom after loading history
+        };
+
+        function sendMessage() {
+            const userInput = document.getElementById('user-input').value;
+            if (userInput.trim() !== "") {
+                // Show user's message in the chatbox
+                const userMessageHTML = '<p class="user-message"><strong>You:</strong> ' + userInput + '</p>';
+                document.getElementById('chat-box').innerHTML += userMessageHTML;
+                
+                // Save user message to local storage and previousMessages
+                saveToChatHistory(userMessageHTML);
+                previousMessages.push(userMessageHTML);
+        
+                // Clear the input field
+                document.getElementById('user-input').value = '';
+        
+                // Add typing indicator
+                const typingIndicator = document.createElement('p');
+                typingIndicator.className = 'typing-indicator';
+                typingIndicator.innerText = 'Doc Bot is searching...';
+                document.getElementById('chat-box').appendChild(typingIndicator);
+        
+                // Scroll chat to bottom
+                scrollToBottom();
+        
+                // Simulate bot typing
+                setTimeout(function() {
+                    const xhr = new XMLHttpRequest();
+                    xhr.open("POST", "/get", true);
+                    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState == 4 && xhr.status == 200) {
+                            // Remove the typing indicator
+                            document.getElementById('chat-box').removeChild(typingIndicator);
+        
+                            const botResponse = xhr.responseText;
+                            simulateTyping(botResponse);
+                        }
+                    };
+                    xhr.send("msg=" + encodeURIComponent(userInput));
+                }, 1000); // Simulate a 1 second delay for bot response
+            }
+        }
+        
+        // Save message to chat history in local storage
+        function saveToChatHistory(message) {
+            const chatHistory = JSON.parse(localStorage.getItem('chatHistory')) || [];
+            chatHistory.push(message);
+            localStorage.setItem('chatHistory', JSON.stringify(chatHistory));
+        }
+
+        // Simulate typing by adding one character at a time
+        function simulateTyping(text) {
+            const botMessageElement = document.createElement('p');
+            botMessageElement.className = 'bot-message';
+            botMessageElement.innerHTML = '<strong>Doc Bot:</strong> ';
+            document.getElementById('chat-box').appendChild(botMessageElement);
+
+            let i = 0;
+            const typingSpeed = 50; // Adjust typing speed (milliseconds per character)
+
+            function typeNextChar() {
+                if (i < text.length) {
+                    botMessageElement.innerHTML += text.charAt(i);
+                    i++;
+                    scrollToBottom(); // Scroll to bottom as the message grows
+                    setTimeout(typeNextChar, typingSpeed); // Recursively type next character
+                }
+            }
+
+            typeNextChar(); // Start typing
+
+            // Save bot message to local storage after it's done typing
+            setTimeout(function() {
+                saveToChatHistory(botMessageElement.outerHTML);
+            }, typingSpeed * text.length);
+        }
+
+        // Function to start voice recognition
+        function startVoiceRecognition() {
+            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = 'en-US'; // Set language
+            recognition.interimResults = false; // Get final results only
+
+            recognition.onresult = function(event) {
+                const userInput = event.results[0][0].transcript; // Get the recognized text
+                document.getElementById('user-input').value = userInput; // Set the input field
+                sendMessage(); // Send the message
+            };
+
+            recognition.onerror = function(event) {
+                console.error('Error occurred in recognition: ' + event.error);
+            };
+
+            recognition.start(); // Start voice recognition
+        }
+
+        // Scroll to the bottom of the chat box
+        function scrollToBottom() {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        // Function to clear chat history
+        function clearChat() {
+            document.getElementById('chat-box').innerHTML = '';
+            localStorage.removeItem('chatHistory'); // Clear local storage
+            previousMessages = []; // Reset previous messages
+        }
+
+        // Function to restore chat history
+        function restoreChat() {
+            document.getElementById('chat-box').innerHTML = ''; // Clear current chat box
+            previousMessages.forEach(function(message) {
+                document.getElementById('chat-box').innerHTML += message; // Restore previous messages
+            });
+            localStorage.setItem('chatHistory', JSON.stringify(previousMessages)); // Restore to local storage
+            scrollToBottom(); // Scroll to bottom
+        }
+
+        // Add event listener for the Tab key to send message
+        document.getElementById('user-input').addEventListener('keydown', function(event) {
+            if (event.key === 'Tab') {
+                event.preventDefault(); // Prevent default tab behavior
+                sendMessage(); // Send the message
+            }
+        });
+    </script>
+</body>
+</html>

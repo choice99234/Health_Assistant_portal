@@ -1,0 +1,162 @@
+{
+    "HIV and AIDS": {
+        "Cases": "38,743,918",
+        "Deaths": "711,380",
+        "Recovered": "36,249,161",
+        "Precautions": "Wash hands, wear masks, observe social distancing",
+        "Treatment": "Consult a healthcare provider",
+        "Expected Recovery Time": "Varies, ongoing treatment needed"
+    },
+    "Malaria": {
+        "Cases": "229 million (WHO estimate)",
+        "Deaths": "627,000 (WHO estimate)",
+        "Recovered": "Varies by region, many asymptomatic cases",
+        "Precautions": "Use insect repellent, bed nets, antimalarial drugs",
+        "Treatment": "Antimalarial medication",
+        "Expected Recovery Time": "3-7 days with treatment"
+    },
+    "Tuberculosis": {
+        "Cases": "2,200 new cases per 100,000 population (Malawi 2020)",
+        "Deaths": "12,000 deaths annually (Malawi)",
+        "Recovered": "Many recover with the right treatment (6-9 months of antibiotics)",
+        "Precautions": "Cover mouth when coughing, ventilate living areas, seek early diagnosis",
+        "Treatment": "Antibiotics (Isoniazid, Rifampicin, Pyrazinamide, Ethambutol)",
+        "Expected Recovery Time": "6-9 months with proper treatment"
+    },
+    "Cholera": {
+        "Cases": "Annual outbreaks, up to 10,000 cases in 2021",
+        "Deaths": "Estimated 100-200 deaths annually",
+        "Recovered": "Many recover with proper rehydration therapy",
+        "Precautions": "Drink clean water, wash hands with soap, use proper sanitation",
+        "Treatment": "Oral Rehydration Salts (ORS), IV fluids, antibiotics in severe cases",
+        "Expected Recovery Time": "Rapid recovery with hydration (1-2 days)"
+    },
+    "Meningitis": {
+        "Cases": "3,000-5,000 cases per year (Malawi 2020)",
+        "Deaths": "Around 10% fatality rate if untreated",
+        "Recovered": "Many recover with appropriate treatment, but complications can occur",
+        "Precautions": "Avoid close contact with infected persons, maintain good hygiene",
+        "Treatment": "Antibiotics (Ceftriaxone, Penicillin)",
+        "Expected Recovery Time": "2-4 weeks with treatment, depends on severity"
+    },
+    "Pneumonia": {
+        "Cases": "Estimated 1.5 million cases annually in Malawi",
+        "Deaths": "Approximately 6,000 deaths annually (Malawi)",
+        "Recovered": "Most recover with antibiotics and supportive care",
+        "Precautions": "Vaccination, avoid smoking, good hygiene",
+        "Treatment": "Antibiotics (Amoxicillin, Azithromycin)",
+        "Expected Recovery Time": "1-2 weeks with proper treatment"
+    },
+    "Typhoid Fever": {
+        "Cases": "Around 12,000 cases per year in Malawi",
+        "Deaths": "Around 100-200 deaths annually",
+        "Recovered": "Most people recover with antibiotics",
+        "Precautions": "Drink clean water, avoid eating food from unhygienic sources",
+        "Treatment": "Antibiotics (Ciprofloxacin, Ceftriaxone)",
+        "Expected Recovery Time": "2-4 weeks with treatment"
+    },
+    "Dengue Fever": {
+        "Cases": "Occasional outbreaks, around 5,000 cases in 2021",
+        "Deaths": "Low fatality rate (less than 1%)",
+        "Recovered": "Most people recover with supportive care",
+        "Precautions": "Use mosquito repellent, eliminate mosquito breeding sites",
+        "Treatment": "Supportive care (hydration, pain relievers)",
+        "Expected Recovery Time": "1-2 weeks, with complete recovery"
+    },
+    "Measles": {
+        "Cases": "Over 1,000 cases annually in Malawi",
+        "Deaths": "Around 100 deaths annually",
+        "Recovered": "Most people recover, but complications can occur in children",
+        "Precautions": "Vaccination (MMR vaccine), good hygiene",
+        "Treatment": "Supportive care, Vitamin A supplementation",
+        "Expected Recovery Time": "7-10 days for mild cases, longer for severe complications"
+    },
+    "Hepatitis B": {
+        "Cases": "Estimated 5-10% of the population infected in Malawi",
+        "Deaths": "Chronic infection can lead to liver failure or liver cancer",
+        "Recovered": "Most recover with acute infection, chronic infection requires ongoing monitoring",
+        "Precautions": "Avoid sharing needles, practice safe sex, vaccination",
+        "Treatment": "Antiviral medications (Tenofovir, Entecavir)",
+        "Expected Recovery Time": "Chronic infection can last a lifetime if untreated"
+    },
+    "Rabies": {
+        "Cases": "Occasional outbreaks, estimated 100-200 cases annually in Malawi",
+        "Deaths": "100% fatal if not treated post-exposure",
+        "Recovered": "No recovery once symptoms appear, but can be prevented with post-exposure vaccination",
+        "Precautions": "Vaccinate pets, avoid contact with stray animals",
+        "Treatment": "Post-exposure rabies vaccination, wound cleaning",
+        "Expected Recovery Time": "None if symptoms appear; immediate vaccination needed after exposure"
+    },
+    "African Trypanosomiasis (Sleeping Sickness)": {
+        "Cases": "Less than 1,000 cases annually in Malawi",
+        "Deaths": "Fatal without treatment in the later stages",
+        "Recovered": "Early treatment is effective, late stages require more intensive care",
+        "Precautions": "Avoid tsetse fly bites, wear protective clothing in endemic areas",
+        "Treatment": "Antitrypanosomal drugs (e.g., Melarsoprol, Eflornithine)",
+        "Expected Recovery Time": "1-3 months with treatment, depending on the stage"
+    },
+    "Cervical Cancer": {
+        "Cases": "Leading cancer in Malawi, estimated 7,000 cases annually",
+        "Deaths": "Over 3,000 deaths annually",
+        "Recovered": "Early detection and treatment can lead to full recovery",
+        "Precautions": "Vaccination (HPV vaccine), regular screenings",
+        "Treatment": "Surgery, chemotherapy, radiation",
+        "Expected Recovery Time": "Varies depending on stage"
+    },
+    "Breast Cancer": {
+        "Cases": "Increasing cases in Malawi, estimated 3,000 cases annually",
+        "Deaths": "Approximately 1,500 deaths annually",
+        "Recovered": "Survival rates are improving with early detection and treatment",
+        "Precautions": "Self-exams, regular screening, early diagnosis",
+        "Treatment": "Surgery, chemotherapy, radiation",
+        "Expected Recovery Time": "Varies, depending on stage"
+    },
+    "Ebola": {
+        "Cases": "Occasional outbreaks in neighboring countries",
+        "Deaths": "High fatality rate, around 50-90%",
+        "Recovered": "Survivors may face long-term health issues",
+        "Precautions": "Avoid contact with infected animals or people",
+        "Treatment": "Supportive care, experimental antiviral treatments",
+        "Expected Recovery Time": "Varies, from weeks to months"
+    },
+    "Zika Virus": {
+        "Cases": "Rare in Malawi but potential risk due to mosquito vectors",
+        "Deaths": "Low fatality rate",
+        "Recovered": "Most recover with supportive care",
+        "Precautions": "Use mosquito repellent, wear long sleeves",
+        "Treatment": "Supportive care, hydration",
+        "Expected Recovery Time": "1-2 weeks"
+    },
+    "Polio": {
+        "Cases": "Minimal cases due to successful vaccination campaigns",
+        "Deaths": "Minimal due to vaccination efforts",
+        "Recovered": "Paralysis can be permanent if untreated",
+        "Precautions": "Vaccination",
+        "Treatment": "Supportive care, rehabilitation for paralysis",
+        "Expected Recovery Time": "Permanent effects may occur"
+    },
+    "Schistosomiasis": {
+        "Cases": "Affects over 1 million people in Malawi",
+        "Deaths": "Approximately 1,000 deaths annually",
+        "Recovered": "Most recover with treatment",
+        "Precautions": "Avoid swimming in contaminated water",
+        "Treatment": "Anthelmintic drugs (Praziquantel)",
+        "Expected Recovery Time": "Varies, depends on the severity of infection"
+    },
+    "Leprosy": {
+        "Cases": "Incidence is declining but still present in Malawi",
+        "Deaths": "Minimal due to early treatment",
+        "Recovered": "Full recovery possible with treatment",
+        "Precautions": "Early detection and treatment",
+        "Treatment": "Antibiotics (Dapsone, Rifampicin, Clofazimine)",
+        "Expected Recovery Time": "Months to years, depending on the severity"
+    },
+    "Malnutrition": {
+        "Cases": "High rates of malnutrition, particularly among children",
+        "Deaths": "Contributes to over 30% of child mortality",
+        "Recovered": "Children can recover with adequate nutrition and care",
+        "Precautions": "Proper nutrition, breastfeeding, food security",
+        "Treatment": "Therapeutic feeding, micronutrient supplementation",
+        "Expected Recovery Time": "Varies depending on nutritional rehabilitation"
+    }
+}

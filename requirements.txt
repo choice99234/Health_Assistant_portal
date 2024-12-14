@@ -1,0 +1,14 @@
+Flask
+Flask-SQLAlchemy
+bcrypt
+Flask-Mail
+nltk
+pandas
+numpy
+pickle-mixin
+newspaper3k
+scikit-learn
+requests
+flask_mail
+fuzzywuzzy
+gunicorn
