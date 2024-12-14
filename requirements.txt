@@ -12,3 +12,4 @@ requests
 flask_mail
 fuzzywuzzy
 gunicorn
+flask_login
