@@ -16,7 +16,7 @@ app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'your_email@gmail.com'
 app.config['MAIL_PASSWORD'] = 'your_email_password'
-
+port = int(os.environ.get("PORT", 5000))  # Default to 5000 if PORT isn't set
 
 db = SQLAlchemy(app)
 # Predefined admin credentials
@@ -450,4 +450,4 @@ def search_disease():
         return jsonify({"error": f"No data available for '{query}' in '{data_type}'."}), 404    
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=False, host='0.0.0.0', port=port)  # Binding to 0.0.0.0 allows external connections
