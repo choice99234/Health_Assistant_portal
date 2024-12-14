@@ -13,7 +13,6 @@ nltk.download('punkt', quiet=True)
 # Combined list of unique article URLsclear
 article_urls = [
     'https://www.who.int/news-room/fact-sheets/detail/malaria',  # Malaria
-    'https://www.who.int/news-room/fact-sheets/detail/hiv-aids',  # HIV/AIDS
 ]
 
 # Initialize an empty corpus
