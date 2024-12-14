@@ -42,7 +42,6 @@ with app.app_context():
 def index():
     return render_template('base.html')
 
-#============================================================Authentication codes==================================================================
 # Importing the check_authenticated decorator
 from functools import wraps
 
