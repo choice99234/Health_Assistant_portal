@@ -8,7 +8,7 @@ from fuzzywuzzy import process
 
 
 # Ensure necessary NLTK dependencies are downloaded
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Combined list of unique article URLs
 article_urls = []
