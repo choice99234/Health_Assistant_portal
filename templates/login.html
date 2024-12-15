@@ -11,7 +11,7 @@
     body {
       font-family: Arial, sans-serif;
       background-color: #f0f8ff;
-      font-size:20px;
+      font-size: 20px;
     }
     .navbar {
       background-color: #003366;
@@ -131,7 +131,7 @@
       position: relative;
       width: 100%;
       bottom: 0;
-      font-size:16px;
+      font-size: 16px;
     }
     .footer-links {
       margin-top: 10px;
@@ -151,6 +151,24 @@
     .h-1{
       font-size: 20px;
       color:#FF5733;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 767px) {
+      .form-container {
+        margin-top: 30px;
+      }
+      .form-container form {
+        width: 90%;
+        margin: 0 auto;
+      }
+      .carousel-inner img {
+        height: 300px;
+      }
+      .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
     }
   </style>
 </head>
@@ -191,7 +209,7 @@
       </div>
     </div>
   {% endif %}
-{% endwith %}
+  {% endwith %}
 
   <!-- Login Form -->
   <div class="container">
@@ -213,7 +231,6 @@
         </div>
       </div>
 
-
       <div class="col-md-6">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -234,8 +251,8 @@
             <div class="carousel-item">
               <img src="static/medical_equipment.png" class="d-block w-100" alt="Health image 3">
               <div class="carousel-caption d-none d-md-block">
-                <h5 class="h-1">Advanced Tools</h5>
-                <p>Utilize advanced our health management tools.</p>
+                <h5 class="h-1">Stay Updated</h5>
+                <p>Always stay up to date with the latest health tips and updates!</p>
               </div>
             </div>
           </div>
@@ -251,24 +268,18 @@
       </div>
     </div>
   </div>
-  
-  <!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="footer-links">
-          <a href="/about">About</a>
-          <a href="/developer">Developer</a>
-          <a href="/contact">Contact</a>
-          <a href="/help">Help</a>
-        </div><br>
-        <span>&copy; CHOITECH 2024. All rights reserved.</span>
-      </div>
-    </div>
-  </div>
-</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Health Center. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Help</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
