@@ -2,22 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "50mb" }
-    },
-    {
       "src": "Dockerfile",
-      "use": "@vercel/static-build"
+      "use": "@vercel/docker"
     }
   ],
   "routes": [
     {
-      "src": "/python/(.*)",
-      "dest": "/app.py"
-    },
-    {
-      "src": "/docker/(.*)",
+      "src": "/(.*)",
       "dest": "/"
     }
   ]

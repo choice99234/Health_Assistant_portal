@@ -1,21 +1,21 @@
 # Use a lightweight Python image as base
 FROM python:3.9-slim
 
-# Set environment variables to avoid writing pyc files and to ensure logs are visible
+# Set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-# Set the working directory in the container
+# Set the working directory
 WORKDIR /app
 
-# Copy the requirements file and install dependencies
+# Install dependencies
 COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code
+# Copy the application code
 COPY . /app/
 
-# Expose port 5000 (if your app listens on this port)
+# Expose the port
 EXPOSE 5000
 
 # Command to run the application
