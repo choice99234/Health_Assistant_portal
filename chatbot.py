@@ -12,7 +12,7 @@ try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
-
+    
 # Combined list of unique article URLs
 article_urls = []
 
