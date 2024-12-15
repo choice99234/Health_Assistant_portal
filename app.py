@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, session, flash, url
 from flask_login import current_user
 from flask_sqlalchemy import SQLAlchemy
 import bcrypt
-import secrets
 import json
 import os
 import requests
